@@ -30,6 +30,9 @@ public class HotelReservationSystem {
             System.out.println("4. Update Reservations");
             System.out.println("5. Delete Reservations");
             System.out.println("0. Exit");
+            System.out.println("Choose an option: ");
+            int choise = scanner.nextInt();
+
 
         }catch (Exception e){
             System.out.println(e);
